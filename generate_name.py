@@ -10,7 +10,6 @@ corpus_file = 'data/names.txt'
 
 lr = 0.0002
 
-
 def to_word(predict, vocabs):
     predict = predict[0]
     predict /= np.sum(predict)
